@@ -1,0 +1,109 @@
+# ====================================================
+# GENERAL
+# ====================================================
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment and local config files
+*.env
+*.local
+secrets.json
+
+# macOS system files
+.DS_Store
+
+# ====================================================
+# PYTHON
+# ====================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Log and temporary files
+*.log
+*.out
+*.err
+
+# ====================================================
+# DEPENDENCIES & BUILD FILES
+# ====================================================
+*.egg-info/
+.eggs/
+*.egg
+build/
+dist/
+pip-wheel-metadata/
+
+# ====================================================
+# DATA
+# ====================================================
+# Data folders following CRISP-DM structure
+data/raw/
+data/interim/
+data/processed/
+
+# Common data file formats
+*.csv
+*.tsv
+*.xls*
+*.json
+!project_metadata.json
+
+*.zip
+*.gz
+*.h5
+*.parquet
+*.feather
+
+# (Keep small sample data under /data/sample/ if needed)
+#data/sample/
+
+# ====================================================
+# MODELS
+# ====================================================
+models/
+*.model
+*.pkl
+*.joblib
+*.pt
+*.h5
+*.ckpt
+
+# ====================================================
+# NOTEBOOKS & OUTPUTS
+# ====================================================
+notebooks/.ipynb_checkpoints/
+.ipynb_checkpoints/
+outputs/
+reports/
+figures/
+plots/
+mlruns/
+wandb/
+runs/
+
+# ====================================================
+# TOOLS / IDE SETTINGS
+# ====================================================
+# VSCode
+.vscode/
+# PyCharm
+.idea/
+
+# ====================================================
+# CONFIGURATION & CREDENTIALS
+# ====================================================
+*.pem
+*.key
+*.crt
+*.cfg
+*.ini
+
+# ====================================================
+# TEMPORARY / MISC
+# ====================================================
+tmp/
+temp/
