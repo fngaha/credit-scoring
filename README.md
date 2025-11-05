@@ -32,3 +32,33 @@ Define business objectives and success metrics:
 ### 5. Evaluation
 
 ### 6. Deployment
+
+---
+
+## Data
+
+- **Source:** [OpenML – Credit-G dataset](https://www.openml.org/d/31)  
+- **Loading example:**
+  ```python
+  from sklearn.datasets import fetch_openml
+  data = fetch_openml("credit-g", version=1, as_frame=True)
+  df = data.frame
+  ```
+
+---
+
+## Roadmap
+- [x] 1. Business Understanding
+- [ ] 2. Data Understanding
+- [ ] 3. Data Preparation
+- [ ] 4. Modeling
+- [ ] 5. Evaluation
+- [ ] 6. Deployment
+
+---
+
+## Author
+**Franck Ngaha**  
+Developer • Data Science & AI Enthusiast  
+[franck.o.ngaha@gmail.com](mailto:franck.o.ngaha@gmail.com)  
+[GitHub Profile](https://github.com/fngaha)
